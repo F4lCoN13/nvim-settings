@@ -1,9 +1,7 @@
 
+"# syntax on a reessayer "
 
-
-syntax on
-
-" INDENTATION ET INDICATION LIGNES "
+"# INDENTATION ET INDICATION LIGNES "
 
 set relativenumber
 set number
@@ -16,19 +14,19 @@ set autoindent
 set cursorline
 
 
-" THEME "
+"# THEME "
 
-colorscheme mustang
-"evening - industry - koehler - slate - torte - mustang - vitamin"
+colorscheme darkblue
+"# evening - industry - koehler - slate - torte - mustang - vitamin"
 set t_Co=256
 
 
-" ABBREVIATION "
+"# ABBREVIATION "
 
-iabbrev pri ft_printf("");
+ab pri ft_printf("|
 
 
-" TEST "
+"# TEST "
 
 set shiftround
 set ruler
@@ -37,4 +35,4 @@ set autowriteall "sauvegarde automatique"
 set autoread "force vim a verifier si vim a etais modifier a l exterieure"
 set updatetime=1000 "temps d update vim en miliseconde"
 set cindent "a configurer"
-"set indexexpr a configurer"
+"# set indexexpr a configurer"
